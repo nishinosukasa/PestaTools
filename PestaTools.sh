@@ -77,6 +77,8 @@ echo "\033[37;1m{15} Ddos "
 echo "\033[31;1m##==================================================>"
 echo "\033[37;1m{16} Virus Maker  "
 echo "\033[31;1m##==================================================>"
+echo "\033[37;1m{17} Virus_2 "
+echo "\033[31;1m##==================================================>"
 echo "\033[37;1m{X} Installing Module Perl"
 echo "\033[31;1m##==================================================>"
 echo "\033[37;1m[0] Exit " 
@@ -439,7 +441,7 @@ fi
 if [ $code = 17 ] || [ $code = 17 ]
 then
 clear
-echo "Installing Admin Finder"
+echo "Installing Virus "
 sleep 1
 apt update && apt upgrade
 apt install python2
