@@ -75,6 +75,8 @@ echo "\033[37;1m{14} Auto Install 60Tools Hacking "
 echo "\033[31;1m##==================================================>"
 echo "\033[37;1m{15} Ddos "
 echo "\033[31;1m##==================================================>"
+echo "\033[37;1m{16} Virus Maker  "
+echo "\033[31;1m##==================================================>"
 echo "\033[37;1m{X} Installing Module Perl"
 echo "\033[31;1m##==================================================>"
 echo "\033[37;1m[0] Exit " 
@@ -424,6 +426,26 @@ cpan install LWP::UserAgent
 perl admin_finder.pl
 fi
 
+if [ $code = 16 ] || [ $code = 16 ]
+then
+clear
+echo "Installing Virus Maker "
+sleep 1
+apt update && apt upgrade
+apt install python2
+python2 anvima.py
+fi
+
+if [ $code = 17 ] || [ $code = 17 ]
+then
+clear
+echo "Installing Admin Finder"
+sleep 1
+apt update && apt upgrade
+apt install python2
+python2 vbugmap.py
+fi
+
 if [ $code = X ] || [ $code = X ]
 then
 clear
@@ -472,7 +494,7 @@ echo " Jangan Sange Sama 2Dimensi :p "
 sleep 1
 echo " Tutorial "
 sleep 1
-echo -" Website : NostalgiaXploit.Wordpress.com "
+echo " Website : NostalgiaXploit.Wordpress.com "
 sleep 1
 echo " Blogger : cruznos.blogspot.com "
 sleep 1
